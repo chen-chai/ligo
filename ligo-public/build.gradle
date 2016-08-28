@@ -1,7 +1,6 @@
 apply plugin: 'war'
 
-// 排除掉未知原因带入的 spring-2.5.6.SE0.jar，会导致在xtytest时，spring使用旧代码而出错。
-configurations {
+// 鎺掗櫎鎺夋湭鐭ュ師鍥犲甫鍏ョ殑 spring-2.5.6.SE0.jar锛屼細瀵艰嚧鍦▁tytest鏃讹紝spring浣跨敤鏃т唬鐮佽�鍑洪敊銆�configurations {
 	compile.exclude module: 'spring'
 }
 
@@ -9,7 +8,6 @@ dependencies {
 	compile project (':ligo-common')
 	
 	compile ('org.apache.httpcomponents:httpclient:4.5.2')
-	// 排除 logback 用 log4j 2.
 	compile ('org.springframework.boot:spring-boot-starter-web:1.2.5.RELEASE') {
     		exclude group:'ch.qos.logback', module:'logback-classic'
 	}
@@ -19,7 +17,6 @@ dependencies {
 	compile ("com.alibaba:dubbo:2.5.3")
 	compile ("redis.clients:jedis:2.1.0")
 	compile ("com.github.sgroschupf:zkclient:0.1") {
-	   // 排除 log4j 用 log4j2
 	   exclude group:'log4j', module:'log4j'
 	}
 	compile ("org.apache.velocity:velocity:1.7")
