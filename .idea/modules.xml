@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ligo.iml" filepath="$PROJECT_DIR$/ligo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ligo-common/ligo-common.iml" filepath="$PROJECT_DIR$/ligo-common/ligo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ligo-mixserver/ligo-mixserver.iml" filepath="$PROJECT_DIR$/ligo-mixserver/ligo-mixserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ligo-public/ligo-public.iml" filepath="$PROJECT_DIR$/ligo-public/ligo-public.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ligo-tradeserver/ligo-tradeserver.iml" filepath="$PROJECT_DIR$/ligo-tradeserver/ligo-tradeserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ligo-userserver/ligo-userserver.iml" filepath="$PROJECT_DIR$/ligo-userserver/ligo-userserver.iml" />
+    </modules>
+  </component>
+</project>
