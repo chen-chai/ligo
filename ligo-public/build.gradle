@@ -1,6 +1,6 @@
 apply plugin: 'war'
 
-// 鎺掗櫎鎺夋湭鐭ュ師鍥犲甫鍏ョ殑 spring-2.5.6.SE0.jar锛屼細瀵艰嚧鍦▁tytest鏃讹紝spring浣跨敤鏃т唬鐮佽�鍑洪敊銆�configurations {
+configurations {
 	compile.exclude module: 'spring'
 }
 

@@ -1,8 +1,5 @@
 apply plugin: 'war'
 
-	compile.exclude module: 'spring'
-}
-
 dependencies {
 	compile project (':ligo-common')
 	
