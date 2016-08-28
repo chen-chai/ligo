@@ -1,12 +1,10 @@
-// 微信理财项目 gradle 主构建脚本
-// 作者：柴志亚、陈鹏
+// ligo项目 gradle 主构建脚本
+// 作者：zhiya.chai  peng.chen
 // 时间：2016-08-28
 
 buildscript {
     repositories {
-        maven {
-            url "http://repository.sonatype.org/content/groups/public/"
-        }
+        mavenCentral()
     }
 }
 plugins {
