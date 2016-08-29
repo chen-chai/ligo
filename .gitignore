@@ -7,3 +7,6 @@
 *.sh
 /test.xml
 /.gradle
+*.project
+*.classpath
+/.settings

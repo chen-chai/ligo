@@ -9,3 +9,4 @@
 /test.xml
 *.project
 *.classpath
+/.settings
