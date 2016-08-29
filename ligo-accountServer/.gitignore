@@ -1,0 +1,7 @@
+/build
+/.metadata
+/.idea
+/log
+*.iml
+*.sh
+/test.xml
