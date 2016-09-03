@@ -17,6 +17,7 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-core', version: springVersion
     compile group: 'org.springframework', name: 'spring-jdbc', version: springVersion
     compile group: 'org.springframework', name: 'spring-test', version: springVersion
+    compile ('com.google.code.spring-crypto-utils:spring-crypto-utils:1.4.0')
 }
 
 project.libsDirName = 'libs/WEB-INF/lib'
