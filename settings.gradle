@@ -1,6 +1,6 @@
 rootProject.name = 'ligo'
 include 'ligo-mixserver'
-include 'ligo-tradeServer'
+include 'ligo-tradeserver'
 include 'ligo-publicweb'
 include 'ligo-common'
 
