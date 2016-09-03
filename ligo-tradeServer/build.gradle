@@ -45,7 +45,3 @@ project.jar.dependsOn copyConfig
 jar {
     exclude '*.xml', '*.properties', 'config', 'META-INF'
 }
-
-test {
-    include '**/*' + gtTest + '*'
-}
