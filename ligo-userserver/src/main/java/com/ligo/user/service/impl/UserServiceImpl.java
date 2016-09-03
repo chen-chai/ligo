@@ -15,7 +15,7 @@ import com.ligo.user.service.datasupport.UserDataSupport;
  * @author zhiya.chai
  * 2016年9月3日 下午6:33:44
  */
-@Service("userSerivce")
+@Service("userService")
 public class UserServiceImpl implements UserService {
 	
 	@Autowired
