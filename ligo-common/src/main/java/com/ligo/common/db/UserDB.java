@@ -1,13 +1,21 @@
 package com.ligo.common.db;
 
+import java.io.Serializable;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
 
 /**
  * 
  * User
- * @author auto-generator
+ * @author zhiya.chai
  * 2016-09-03 47:17:49
  */
-public class UserDB {
+public class UserDB implements Serializable{
+	/**
+	 * 2016年9月3日 下午6:38:19
+	 */
+	private static final long serialVersionUID = -7484277635572371238L;
 	/**
 	 * 主键ID
 	 */

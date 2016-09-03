@@ -38,6 +38,7 @@
     <bean id="sessionFactoryWrite" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="configLocation" value="classpath:mybatis-config-write.xml" />
         <property name="dataSource" ref="dataSourceWrite" />
+         <property name="mapperLocations" value="classpath:/mybatis/mapper/*.xml"/>
     </bean>
 
 

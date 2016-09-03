@@ -1,10 +1,12 @@
 package com.ligo.user.dao;
 
-import com.ligo.user.po.User;
-import com.huajin.baymax.db.CrudDao;
-import com.huajin.baymax.db.annotation.MyBatisDao;
-import java.util.Map;
 import java.util.List;
+import java.util.Map;
+
+import org.springframework.stereotype.Repository;
+
+import com.ligo.common.db.UserDB;
+import com.ligo.common.vo.UserVo;
 
 /**
  * 
@@ -12,15 +14,16 @@ import java.util.List;
  * @author auto-generator
  * 2016-09-03 47:17:49
  */
-@MyBatisDao
-public interface UserDao extends CrudDao<User>{
-	public int insert(User o);
+@Repository
+public interface UserDao {
 	
-	public int update(User o);
+	public int insert(UserDB o);
+	
+	public int update(UserDB o);
 	
 	public void delete(Map<String, Object> map);
 	
-	public User getById(Map<String, Object> map);
+	public UserVo getById(Map<String, Object> map);
 	
-	public List<User> select(Map<String, Object> map);
+	public List<UserVo> select(Map<String, Object> map);
 }

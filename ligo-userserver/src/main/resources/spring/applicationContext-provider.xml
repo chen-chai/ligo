@@ -14,7 +14,8 @@
 
     <dubbo:application name="userserver-provider"  organization="userserver"/>
     <dubbo:registry address="${userserver-registry-address}" protocol="zookeeper"/>
-    <dubbo:protocol name="dubbo" port="${userserver-provider-port}"  accesslog="true" />
-
+    <dubbo:protocol name="dubbo" port="${userserver-provider-port}"  accesslog="true" threads="${userserver-provider-threads}"/>
+    
+	<dubbo:service interface="com.ligo.common.service.user.UserService" ref="userService" cluster="failfast " />
 
 </beans>
