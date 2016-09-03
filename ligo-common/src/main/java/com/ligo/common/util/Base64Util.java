@@ -4,7 +4,7 @@
  * author: shiqun.shi@alipay.com
  */
 
-package com.ligo.util;
+package com.ligo.common.util;
 
 public final class Base64Util {
 

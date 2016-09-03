@@ -16,7 +16,7 @@
 
 
     <context:annotation-config />
-    <context:component-scan base-package="com.ligotrade" />
+    <context:component-scan base-package="com.ligo.user" />
 
     <!-- 导入其他配置-->
     <import resource="classpath:spring/datasource.xml" />

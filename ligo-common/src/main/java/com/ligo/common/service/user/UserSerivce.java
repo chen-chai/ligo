@@ -1,4 +1,4 @@
-package com.ligo.service;
+package com.ligo.common.service.user;
 
 /**
  * 用户服务

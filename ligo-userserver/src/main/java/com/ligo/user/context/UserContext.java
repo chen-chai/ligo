@@ -1,4 +1,4 @@
-package com.ligouser.common;
+package com.ligo.user.context;
 
 /**
  *
@@ -11,16 +11,16 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
  * @author ming.li
  *
  */
-public class TradeContext {
+public class UserContext {
 
-    private static TradeContext context;
+    private static UserContext context;
 
     /**
      * Spring的上下文
      */
     private ApplicationContext springContext;
 
-    private TradeContext()
+    private UserContext()
     {
         try {
             springContext = new FileSystemXmlApplicationContext(new String[]{"classpath*:applicationContext..xml"});
@@ -30,11 +30,11 @@ public class TradeContext {
         }
     }
 
-    public static TradeContext getInstance()
+    public static UserContext getInstance()
     {
         if(context == null)
         {
-            context = new TradeContext();
+            context = new UserContext();
         }
         return context;
     }

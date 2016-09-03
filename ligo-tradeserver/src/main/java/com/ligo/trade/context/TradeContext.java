@@ -1,4 +1,4 @@
-package com.ligotrade.common;
+package com.ligo.trade.context;
 
 /**
  *

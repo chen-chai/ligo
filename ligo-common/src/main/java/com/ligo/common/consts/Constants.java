@@ -1,4 +1,4 @@
-package com.ligo.consts;
+package com.ligo.common.consts;
 /**
  * User: chubchen
  * Date: 13-7-16

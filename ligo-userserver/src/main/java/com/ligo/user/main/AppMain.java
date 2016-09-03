@@ -1,4 +1,4 @@
-package com.ligotrade.main;
+package com.ligo.user.main;
 
 import com.alibaba.dubbo.container.Main;
 

@@ -1,15 +1,15 @@
 /**
  * 
  */
-package com.ligo.util;
-
-import com.ligo.consts.Constants;
+package com.ligo.common.util;
 
 import java.sql.Timestamp;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+
+import com.ligo.common.consts.Constants;
 
 /**
  * @author chubchen

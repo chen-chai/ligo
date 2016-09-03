@@ -1,4 +1,4 @@
-package com.ligotrade.util;
+package com.ligo.trade.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
@@ -38,7 +38,7 @@ public class ApplicationContextUtil implements ApplicationContextAware {
      * @throws org.springframework.beans.BeansException
      */
     public static <T> T getBean(Class<T> clz) throws BeansException {
-        @SuppressWarnings("unchecked")
+        @SuppressWarnings("all")
         T result = (T) applicationContext.getBean(clz);
         return result;
     }

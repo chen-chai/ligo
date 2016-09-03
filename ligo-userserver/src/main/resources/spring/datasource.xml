@@ -51,7 +51,7 @@
 
     <bean id="mapperScannerConfigurerTask" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactory"  ref="sessionFactoryWrite"/>
-        <property name="basePackage" value="com.ligotrade.userserver.dao" />
+        <property name="basePackage" value="com.ligo.user.dao" />
     </bean>
 
 

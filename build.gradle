@@ -18,8 +18,8 @@ allprojects {
 
     repositories {
         maven {
-            mavenCentral()
-            url "http://182.254.129.17:8881/nexus/content/groups/public/"
+            //mavenCentral()
+            url "http://123.56.207.117:8081/nexus/content/groups/public/"
         }
     }
 }
