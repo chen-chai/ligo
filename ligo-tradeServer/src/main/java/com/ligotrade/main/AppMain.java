@@ -4,6 +4,8 @@
 package com.ligotrade.main;
 
 import com.ligotrade.common.TradeContext;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author ming.li
@@ -11,7 +13,7 @@ import com.ligotrade.common.TradeContext;
  */
 public class AppMain {
 	
-	Logger
+	private static final Logger logger = LoggerFactory.getLogger(AppMain.class);
 	/**
 	 * @param args
 	 */
