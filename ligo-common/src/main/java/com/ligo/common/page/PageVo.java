@@ -21,7 +21,7 @@ public class PageVo<E> implements Serializable{
 	private int pageSize = -1;//
 	private int total;//总数
 	
-	private List<E> voList;
+	private List<E> voList;//集合
 	
 	public PageVo() {
         this.pageSize = DEFAULT_PAGE_SIZE;

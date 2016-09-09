@@ -11,7 +11,7 @@
     <context:property-placeholder location="classpath:conf/dubbo-provider.properties" ignore-unresolvable="true"/>
 
     <dubbo:application name="userserver-provider"  organization="userserver"/>
-    <dubbo:registry address="${userserver-registry-address}" protocol="zookeeper"/>
+    <dubbo:registry address="${userserver-registry-address}" protocol="zookeeper" register="true"/>
     <dubbo:protocol name="dubbo" port="${userserver-provider-port}"  accesslog="true" threads="${userserver-provider-threads}"/>
     
 	<dubbo:service interface="com.ligo.common.service.user.UserService" ref="userService" cluster="failfast " />
