@@ -28,6 +28,15 @@ public class UserServiceImpl implements UserService {
 	public List<UserVo> getUserList(Map<String, Object> map) {
 		return userDataSupport.getUserList(map);
 	}
-	
 
+	@Override
+	public UserVo login() {
+		return null;
+	}
+
+	@Override
+	public UserVo register(UserVo user) {
+		return null;
+	}
+	
 }

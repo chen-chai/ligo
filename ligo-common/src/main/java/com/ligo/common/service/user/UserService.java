@@ -22,4 +22,8 @@ public interface UserService {
 	 */
 	public List<UserVo> getUserList(Map<String,Object> map);
 	
+	public UserVo login();
+	
+	public UserVo register(UserVo user);
+	
 }
