@@ -7,10 +7,18 @@ package com.ligo.common.enums;
  */
 public enum ErrorCode {
 
-	SUCCESS(0,"成功");
+	SUCCESS(0,"成功"),
+	//用户
+	USER_REGISTER_FAIL(101001,"用户注册失败"),
+	USER_ALREADY_EXIST(101002,"用户已存在"),
+	USER_NOT_EXIST(101003,"用户不存在"),
+	USER_LOGIN_FAIL(101004,"用户名或密码不正确"),
+	
+	SYS_EMPTY_PARAMETER(999001,"系统参数为空");
 	
 	private int code;
 	private String message;
+	
 	public int getCode() {
 		return code;
 	}

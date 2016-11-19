@@ -33,6 +33,10 @@ public class UserDB implements Serializable{
 	 */
 	private java.lang.String loginName;
 	/**
+	 * 密码盐
+	 */
+	private String salt;
+	/**
 	 * 登录密码（加密）
 	 */
 	private java.lang.String password;
@@ -178,6 +182,12 @@ public class UserDB implements Serializable{
 	}
 	public java.lang.Long getVersionNo() {
 		return this.versionNo;
+	}
+	public String getSalt() {
+		return salt;
+	}
+	public void setSalt(String salt) {
+		this.salt = salt;
 	}
 
 }

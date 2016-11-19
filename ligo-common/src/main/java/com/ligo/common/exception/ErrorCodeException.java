@@ -7,7 +7,7 @@ import com.ligo.common.enums.ErrorCode;
  * @author zhiya.chai
  * 2016年9月3日 下午9:42:26
  */
-public class ErrorCodeException extends Exception{
+public class ErrorCodeException extends RuntimeException{
 
 	/**
 	 * 2016年9月3日 下午9:43:14

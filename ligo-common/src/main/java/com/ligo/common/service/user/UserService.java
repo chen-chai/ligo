@@ -3,6 +3,7 @@ package com.ligo.common.service.user;
 import java.util.List;
 import java.util.Map;
 
+import com.ligo.common.db.UserDB;
 import com.ligo.common.vo.UserVo;
 
 /**
@@ -22,8 +23,10 @@ public interface UserService {
 	 */
 	public List<UserVo> getUserList(Map<String,Object> map);
 	
-	public UserVo login();
+	public UserVo loginByPwd(UserVo vo);
 	
-	public UserVo register(UserVo user);
+	public UserVo loginByVerifyCode(String phoneNo,String verifyCode);
+	
+	public UserVo register(UserDB user);
 	
 }
